@@ -4,8 +4,8 @@ You're an engineer here at AngelList. We've decided to iterate on the job search
 
 Here are the mocks you've been given:
 
-<img src="mock.png" width="400" />
-<img src="expanded.png" width="400" />
+<img src="mock.png" width="500" />
+<img src="expanded.png" width="500" />
 
 You'll be using vanilla JavaScript (no frameworks), HTML, and CSS to build this search bar.
 
