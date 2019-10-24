@@ -30,5 +30,5 @@ api(method: string, path: string, data?: any): Promise<any>
 - All text is 16px
 - All corners are rounded by 5px
 - Colors: #f2f4f7 (light gray background), #0f6fff (blue)
-- We provide the CSS for styling the <select> element to speed things up a bit
+- We provide the CSS for styling the select element to speed things up a bit
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
