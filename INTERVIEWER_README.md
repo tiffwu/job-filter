@@ -26,11 +26,15 @@ This question tests multiple frontend skillsets:
 - prioritization
 - finding online documentation (everyone is going to have to look things up)
 
-### Tips
+## How to give this question
 
-Something about time management
+Ask the candidate to think out loud.
 
-### How to evaluate
+Reassure the candidate that we are not looking for the most perfect code.
+
+Something about time management -- should we tell the candidate that they have 45 min and to prioritize accordingly?
+
+## How to evaluate
 
 #### JavaScript
 - Uses form submit handler to trigger `POST` action
