@@ -17,6 +17,8 @@ Your code should:
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
 
+**Feel free to look anything up online.**
+
 ### How to make API requests
 
 We've provided an `api` function for you to use. It takes an HTTP method and path to request, and an optional data argument (if you are making a `POST` request). The `api` function will return a promise that may have data. It can also potentially reject with an error.
