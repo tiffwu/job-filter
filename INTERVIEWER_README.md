@@ -43,7 +43,7 @@ Or, we can timebox each section -- make sure the candidate has at least 20 minut
 If they finish early...
 
 - Ask how they would clean up their code
-- Have them update their code to handle infinite layers of nesting
+- Have them update their code to handle infinite layers of role hierarchy
 - Ask for feedback on the question
 
 ## How to evaluate
