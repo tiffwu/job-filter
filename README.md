@@ -31,6 +31,6 @@ api(method: string, path: string, data?: any): Promise<any>
 
 - All text is 16px
 - All corners are rounded by 5px
-- Colors: `#e4e7f0` (light gray background), `#0f6fff` (blue), `#acbdd5` (select border)
+- Colors: `#f2f4f7` (light gray background), `#0f6fff` (blue), `#acbdd5` (select border)
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
 - Style the select last. The svg for the background indicator is here: https://cl.ly/84375e17a5e9/arrow-down.svg

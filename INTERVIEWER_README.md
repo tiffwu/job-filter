@@ -21,11 +21,14 @@ This question tests multiple frontend skillsets:
 - class nomenclature
 
 ### Other
+- reading comprehension
 - attention to detail
 - prioritization
 - finding online documentation
 
 ## How to give this question
+
+Tell the candidate to read the question in its entirety before getting started.
 
 Ask the candidate to think out loud.
 
