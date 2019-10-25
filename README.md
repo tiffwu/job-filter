@@ -12,7 +12,15 @@ You'll be using vanilla JavaScript (**no frameworks**), HTML, and CSS to build t
 Your code should:
 - Make a `GET` request to `/roles` retrieve the list of role options.
 - Create the dropdown with the options formatted as depicted in the mock.
-- When the Search button is clicked, make a `POST` request to `/search` with a payload of the shape `{ roleId: number }`.
+- When the Search button is clicked, make a `POST` request to `/search` with a payload of the shape:
+```json
+{
+  type: 'role'
+  meta: {
+    id: role.id
+  }
+}
+```
 - Style the UI according to the mocks.
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.

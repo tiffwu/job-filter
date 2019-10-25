@@ -2,7 +2,7 @@
 
 This question should be capped at 45 minutes. A Coderpad for this question should be set up and the link given to the candidate.
 
-This question tests multiple frontend skillsets:
+This question tests:
 
 #### JavaScript
 - asynchronous actions
@@ -38,11 +38,14 @@ Something about time management -- should we tell the candidate that they have 4
 
 Or, we can timebox each section -- make sure the candidate has at least 20 minutes for the JS portion. HTML should take no longer than 10 minutes. 5 minutes of CSS should be sufficient to gauge experience.
 
+Do they think about recursion?
+
 #### Extra credit
 
 If they finish early...
 
 - Ask how they would clean up their code
+- Sort
 - Have them update their code to handle infinite layers of role hierarchy
 - Ask for feedback on the question
 
