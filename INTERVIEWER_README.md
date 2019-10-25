@@ -17,14 +17,13 @@ This question tests multiple frontend skillsets:
 - forms
 
 #### CSS
-- CSS basics
-- positioning and flexbox
+- basics
 - class nomenclature
 
 ### Other
-- design intuition
+- attention to detail
 - prioritization
-- finding online documentation (everyone is going to have to look things up)
+- finding online documentation
 
 ## How to give this question
 
@@ -34,20 +33,29 @@ Reassure the candidate that we are not looking for the most perfect code.
 
 Something about time management -- should we tell the candidate that they have 45 min and to prioritize accordingly?
 
+If they struggle with CSS have them skip styling the select altogether.
+
+#### Extra credit
+
+If they finish early...
+
+- Ask how they would clean up their code
+- Ask for feedback on the question
+
 ## How to evaluate
 
 #### JavaScript
 - Uses form submit handler to trigger `POST` action
 - Knows ES6 syntax (e.g. `const`/`let`, arrow functions)
-- Uses Array.prototype methods (`reduce`, `forEach`, `map`, etc.)
+- Takes advantage of JS language features such as array prototype methods
 - Uses template strings instead of string concatenation
+- Knows that innerHTML is an XSS risk unless properly escaped; uses createElement instead
 
 #### HTML
-- Prefixes selectors used by JS with `js-`
-- Ideal semantic HTML: a `<form>` element wrapping a `<select>` and `<button type="submit">`
+- Ideal semantic HTML: a `<form>` element wrapping a `<select>` and a `<button type="submit">`
 
 #### CSS
-- Reasonable class naming
+- Reasonable class names
 - Knows shorthand (dimensions, border, etc.)
 
 #### General

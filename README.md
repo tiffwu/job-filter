@@ -12,7 +12,7 @@ You'll be using vanilla JavaScript (no frameworks), HTML, and CSS to build this 
 Your code should:
 - Make a `GET` request to `/roles` retrieve the list of role options.
 - Create the dropdown with the options formatted as depicted in the mock.
-- When the Search button is clicked, make a `POST` request to `/search` with the id of the selected role.
+- When the Search button is clicked, make a `POST` request to `/search` with a payload of `{ roleId }`.
 - Style the UI according to the mocks.
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
@@ -31,6 +31,6 @@ api(method: string, path: string, data?: any): Promise<any>
 
 - All text is 16px
 - All corners are rounded by 5px
-- Colors: `#f2f4f7` (light gray background), `#0f6fff` (blue)
-- We've given you the CSS for styling the select element to speed things up a bit
+- Colors: `#e4e7f0` (light gray background), `#0f6fff` (blue), `#acbdd5` (select border)
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
+- Style the select last. The svg for the background indicator is here: https://cl.ly/84375e17a5e9/arrow-down.svg
