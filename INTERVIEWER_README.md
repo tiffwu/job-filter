@@ -20,7 +20,7 @@ This question tests multiple frontend skillsets:
 - basics
 - class nomenclature
 
-### Other
+#### Other
 - reading comprehension
 - attention to detail
 - prioritization
