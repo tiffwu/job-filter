@@ -5,7 +5,7 @@ This question should be capped at 45 minutes. A Coderpad for this question shoul
 This question tests multiple frontend skillsets:
 
 #### JavaScript
-- asynchronous actions and Promises
+- asynchronous actions
 - array iteration and understanding of JS standard library
 - basic JS object manipulation
 - browser APIs
