@@ -21,7 +21,7 @@ You'll write everything in the Coderpad. You'll see that there's a designated se
 
 ### How to make API requests
 
-We've provided an `api` function for you to use. It takes an HTTP method and path to request, and an optional data argument (if you are making a `POST` request). The `api` function will return a promise that may have data. It can also potentially reject with an error.
+We've provided an `api` function for you to use; it will be available in scope of your JavaScript. `api` takes an HTTP method and path to request, and an optional data argument (if you are making a `POST`). The function will return a promise that may have data. It can also potentially reject with an error.
 
 ```typescript
 api(method: string, path: string, data?: any): Promise<any>
