@@ -6,11 +6,11 @@ This question tests multiple frontend skillsets:
 
 #### JavaScript
 - asynchronous actions
-- array iteration and understanding of JS standard library
-- basic JS object manipulation
+- array iteration
+- familiarity with JS standard library
 - browser APIs
   - event listeners
-  - finding elements on the DOM
+  - locating DOM elements
 
 #### HTML
 - semantic HTML
@@ -24,25 +24,26 @@ This question tests multiple frontend skillsets:
 - reading comprehension
 - attention to detail
 - prioritization
-- finding online documentation
+- online research
 
 ## How to give this question
 
 Tell the candidate to read the question in its entirety before getting started.
 
-Ask the candidate to think out loud.
+Ask the candidate to think out loud as they complete the question.
 
 Reassure the candidate that we are not looking for the most perfect code.
 
 Something about time management -- should we tell the candidate that they have 45 min and to prioritize accordingly?
 
-If they struggle with CSS have them skip styling the select altogether.
+Or, we can timebox each section -- make sure the candidate has at least 20 minutes for the JS portion. HTML should take no longer than 10 minutes. 5 minutes of CSS should be sufficient to gauge experience.
 
 #### Extra credit
 
 If they finish early...
 
 - Ask how they would clean up their code
+- Have them update their code to handle infinite layers of nesting
 - Ask for feedback on the question
 
 ## How to evaluate
