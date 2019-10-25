@@ -7,7 +7,7 @@ Here are the mocks you've been given:
 <img src="mock.png" width="700" />
 <img src="expanded.png" width="700" />
 
-You'll be using vanilla JavaScript (no frameworks), HTML, and CSS to build this search bar.
+You'll be using vanilla JavaScript (**no frameworks**), HTML, and CSS to build this search bar.
 
 Your code should:
 - Make a `GET` request to `/roles` retrieve the list of role options.
