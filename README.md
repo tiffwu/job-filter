@@ -13,7 +13,7 @@ Your code should:
 - Make a `GET` request to `/roles` retrieve the list of role options.
 - Create the dropdown with the options formatted as depicted in the mock.
 - When the Search button is clicked, make a `POST` request to `/search` with a payload of the shape:
-```json
+```javascript
 {
   type: 'role'
   meta: {
