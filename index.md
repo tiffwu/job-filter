@@ -25,7 +25,9 @@ Your code should:
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
 
-**Feel free to look anything up online.**
+**Feel free to**:
+- look anything up online
+- copy and paste the Coderpad contents into a local HTML file so that you can use your preferred IDE
 
 ### How to make API requests
 
@@ -47,9 +49,9 @@ api(method: string, path: string, data?: any): Promise<any>
 
 ### Hints
 
-#### Select styling
+#### Select styles
 <details>
   <summary>Click to expand</summary>
 
-  A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/style.css). Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the contents of the CSS file.
+  A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/style.css). Import this stylesheet into the page and do the remainder of the styles. Feel free to look at the contents of the CSS file.
 </details>
