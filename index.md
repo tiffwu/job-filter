@@ -43,6 +43,8 @@ api(method: string, path: string, data?: any): Promise<any>
 - SVG for the `<select>` down arrow: [https://tiffwu.github.io/job-filter/arrow-down.svg](https://tiffwu.github.io/job-filter/arrow-down.svg)
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
 
+---
+
 ### Hints
 
 #### Select styling
