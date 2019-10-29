@@ -1,0 +1,103 @@
+<!-- INSTRUCTIONS: https://github.com/tiffwu/search-bar -->
+
+<html>
+  <head>
+    <style>
+      /************************************
+                  Write CSS here
+       ************************************/
+    </style>
+  </head>
+  <body>
+    <!-- -----------------------------
+              Write HTML here
+    ------------------------------- -->
+    <script>
+      /************************************
+                   Write JS here
+       ************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+      //////////////////////////////////////////////
+
+      function api(method, path, data) {
+        const API_MAP = {
+          roles: {
+            get: [
+              { title: 'Software Engineer', id: 1, parentId: null },
+              { title: 'Designer', id: 2, parentId: null },
+              { title: 'Sales', id: 3, parentId: null },
+              { title: 'Mobile Developer', id: 4, parentId: 1 },
+              { title: 'UI/UX Designer', id: 8, parentId: 2 },
+              { title: 'Full-Stack Developer', id: 5, parentId: 1 },
+              { title: 'Business Development', id: 11, parentId: 3 },
+              { title: 'Account Executive', id: 12, parentId: 3 },
+              { title: 'Engineering Manager', id: 6, parentId: 1 },
+              { title: 'DevOps', id: 7, parentId: 1 },
+              { title: 'User Researcher', id: 9, parentId: 2 }
+            ]
+          },
+          search: {
+            post: (data) => alert(data)
+          }
+        };
+
+        return new Promise((resolve, reject) => {
+          const cleansedMethod = method.toLowerCase();
+          const cleansedPath = path.replace('/', '').toLowerCase();
+
+          const result = API_MAP[cleansedPath] && API_MAP[cleansedPath][cleansedMethod];
+
+          if (!result) {
+            reject(new Error(`Could not ${method} ${path}`));
+          } else if (cleansedMethod === 'get') {
+            resolve(result);
+          } else if (typeof result === 'function') {
+            resolve(result(data));
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
