@@ -22,6 +22,7 @@ Your code should:
 }
 ```
 - Style the UI according to the mocks.
+  - A stylesheet is provided to help with styling the `<select>` element. Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the CSS file.
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
 
@@ -39,6 +40,6 @@ api(method: string, path: string, data?: any): Promise<any>
 
 - All text is 16px
 - All corners are rounded by 5px
-- Colors: `#f2f4f7` (light gray background), `#0f6fff` (blue), `#acbdd5` (select border)
-- SVG for the down arrow: https://cl.ly/84375e17a5e9/arrow-down.svg
+- Colors: `#f2f4f7` (light gray background), `#0f6fff` (blue)
+- SVG for the `<select>` down arrow: https://tiffwu.github.io/search-bar/arrow-down.svg
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
