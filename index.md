@@ -40,7 +40,6 @@ api(method: string, path: string, data?: any): Promise<any>
 ### Design specs
 
 - All text is 16px
-- All corners are rounded by 5px
 - Colors: `#f2f4f7` (light gray background), `#0f6fff` (blue), `#acbdd5` (gray select border)
 - SVG for the `<select>` down arrow: [https://tiffwu.github.io/job-filter/arrow-down.svg](https://tiffwu.github.io/job-filter/arrow-down.svg)
 - Just eyeball everything else. No need to be pixel perfect -- remember, this is a prototype!
