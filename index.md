@@ -14,15 +14,15 @@ Your code should:
 - Create the dropdown with the options formatted as depicted in the mock.
 - When the Search button is clicked, make a `POST` request to `/search` with a payload of the shape:
 ```javascript
-{
-  type: 'role'
-  meta: {
-    id: role.id
+  {
+    type: 'role'
+    meta: {
+      id: role.id
+    }
   }
-}
 ```
 - Style the UI according to the mocks.
-  - A stylesheet is provided to help with styling the `<select>` element. Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the CSS file.
+  - A stylesheet is provided to help with styling the `<select>` element: https://tiffwu.github.io/search-bar/style.css. Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the contents of the CSS file.
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
 
