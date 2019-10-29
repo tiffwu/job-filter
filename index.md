@@ -45,7 +45,9 @@ api(method: string, path: string, data?: any): Promise<any>
 
 ### Hints
 
+#### Select styling
 <details>
-  #### <summary>Select styling</summary>
+  <summary>Click to expand</summary>
+
   A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/style.css). Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the contents of the CSS file.
 </details>
