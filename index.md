@@ -29,7 +29,7 @@ You'll write everything in the Coderpad. You'll see that there's a designated se
 - look anything up online.
 - copy and paste the Coderpad contents into a local HTML file so that you can use your preferred IDE.
 
-## How to make API requests
+### How to make API requests
 
 We've provided a `api` function for you to use; it will be available in scope of your JavaScript. `api` takes an HTTP method and path to request, and an optional data argument (if you are making a `POST`). The function will return a promise that may have data. It can also potentially reject with an error.
 
@@ -37,7 +37,7 @@ We've provided a `api` function for you to use; it will be available in scope of
 api(method: string, path: string, data?: any): Promise<any>
 ```
 
-## Design specs
+### Design specs
 
 - All text is 16px
 - All corners are rounded by 5px
@@ -47,7 +47,7 @@ api(method: string, path: string, data?: any): Promise<any>
 
 ---
 
-## Hints
+### Hints
 
 #### Select styles
 <details>
