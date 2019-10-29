@@ -1,6 +1,6 @@
 # Job Filter
 
-You're an engineer here at AngelList. We've decided to iterate on the job search experience for candidates. You've been tasked with prototyping a simple job filter for candidates to filter jobs by role (e.g. engineer, designer).
+You're an engineer here at AngelList. We've decided to iterate on the job search experience for candidates. You've been tasked with prototyping a simple job filter for candidates to look for jobs by role (e.g. engineer, designer).
 
 Here are the mocks you've been given:
 
