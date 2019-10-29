@@ -15,7 +15,7 @@ Your code should:
 - When the Search button is clicked, make a `POST` request to `/search` with a payload of the shape:
 ```javascript
   {
-    type: 'role'
+    type: 'role',
     meta: {
       id: role.id
     }
