@@ -22,7 +22,7 @@ Your code should:
   }
 ```
 - Style the UI according to the mocks.
-  - A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/arrow-down.svg). Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the contents of the CSS file.
+  - A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/style.css). Import this stylesheet into the page before doing the remainder of the styling. Feel free to look at the contents of the CSS file.
 
 You'll write everything in the Coderpad. You'll see that there's a designated section for CSS, one for HTML, and one for JavaScript.
 
