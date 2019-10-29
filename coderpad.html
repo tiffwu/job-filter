@@ -91,9 +91,11 @@
           if (!result) {
             return reject(new Error(`Could not ${method} ${path}`));
           }
+
           if (randomNumber(1, 5) === 1) {
             return reject(new Error('There was a random error with your request'));
           }
+
           if (typeof result === 'function') {
             return resolve(result(data));
           }
