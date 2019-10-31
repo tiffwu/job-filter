@@ -54,3 +54,5 @@ api(method: string, path: string, data?: any): Promise<any>
 
   A stylesheet is provided to help with styling the `<select>` element: [https://tiffwu.github.io/job-filter/style.css](https://tiffwu.github.io/job-filter/style.css). Import this stylesheet into the page and do the remainder of the styles. Feel free to look at the contents of the CSS file.
 </details>
+
+<meta name="robots" content="noindex" />
